@@ -2,3 +2,4 @@
 # IRL-redactor copies stay byte-identical regardless of platform/autocrlf.
 # This makes a raw `cmp` a valid cross-repo drift check.
 *.irlights text eol=lf
+.claude/hooks/*.sh text eol=lf
